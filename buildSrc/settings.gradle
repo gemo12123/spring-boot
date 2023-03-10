@@ -1,5 +1,8 @@
 pluginManagement {
 	repositories {
+		mavenLocal()
+		maven { name "Alibaba" ; url "https://maven.aliyun.com/repository/public" }
+		maven { name "Bstek" ; url "https://nexus.bsdn.org/content/groups/public/" }
 		mavenCentral()
 		gradlePluginPortal()
 	}
